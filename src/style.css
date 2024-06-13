@@ -1,0 +1,233 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.a:link, .a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav {
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.nav1, .nav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* 간격을 줄임 */
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.nav1 {
+  font-size: 8px;
+}
+
+.nav2 span{
+  font-size: 14.5px;
+}
+
+.YGLIFE1{
+  justify-content: center;
+}
+
+.lan {
+  font-size: 10px;
+  color: #c8c8c8;
+  cursor: pointer;
+}
+
+.lan.selected,
+.lan:hover {
+  color: black;
+}
+
+.logo {
+  width: 137px;
+  height: 50px;
+}
+
+.nav2 {
+  font-size: 12px; /* 글자 크기를 줄임 */
+  gap: 10px; /* 간격을 줄임 */
+  align-items: center;
+}
+
+.nav2 .menu:hover {
+  color: #be0028 !important;
+}
+
+.main {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+
+
+.container {
+  position: relative;
+  max-width: 910px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: none;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.banner.active {
+  display: block;
+  opacity: 1;
+}
+
+.subject {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  max-width: 910px;
+  margin: 20px auto;
+}
+
+.subject span {
+  background-color: rgb(218, 219, 220);
+  padding: 10px 20px;
+  text-align: center;
+  flex: 1;
+  margin: 0 5px;
+}
+
+.subject .sub {
+  display: block;
+}
+
+.subject .more1, .subject .more2, .subject .more3, .subject .more4 {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 910px;
+  margin: 20px auto;
+}
+
+.NOTICE1, .MUSICVIDEO1, .NEWS1, .YGLIFE1 {
+  background-color: rgb(218, 219, 220);
+  margin: 10px;
+  padding: 10px;
+  font-size: 12px;
+  color: #737373;
+  width: calc(25% - 20px);
+  height: 200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.NOTICE1 .notice-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.NOTICE1 .YGMENU {
+  background-color: black;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.NOTICE1 .ARTISTSMENU {
+  background-color: #737373;
+  padding: 5px 10px;
+}
+
+.NOTICE1 .daten, .NEWS1 .reboot2, .YGLIFE1 .date {
+  color: rgb(177, 176, 176);
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+.footimage-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footimage {
+  width: 100%;
+  max-width: 910px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.icon-cont {
+  text-align: right;
+  margin-right: 10%;
+  font-size: 10px;
+  color: lightgray;
+}
+
+.icon-cont .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.foot-hr {
+  width: 100%;
+  max-width: 910px;
+  margin: 20px auto;
+  border: 1px solid lightgray;
+}
+
+.logo-foot {
+  margin-left: 10%;
+}
+
+.copyright {
+  font-size: 10px;
+  color: #737373;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav-foot {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.nav-foot .highlight {
+  background-color: #be0028;
+  color: white;
+  padding: 0 5px;
+  text-align: center;
+}
+
+.list-cont {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.list {
+  background-color: #c8c8c8;
+  border: none;
+  color: white;
+  font-size: 10px;
+  width: 150px;
+  height: 20px;
+}
